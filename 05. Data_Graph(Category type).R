@@ -55,4 +55,6 @@ bp <- barplot(table(KOTRA2024 $Area), col=pal1, xlab = "진출대륙명", ylab =
 #도수분포표 확인
 entry <- c(334, 5843, 727, 444, 63, 819, 452, 2331, 274, 280)
 #막대그래프에 수치 부여
-text(x=entry, y=bp, labels=entry, pos=4) # pos=4는 막대 오른쪽에 수치를 표시
+text(x=entry, y=bp, labels=entry, pos=4) #pos=4는 막대오른쪽에 수치를 표시
+
+
